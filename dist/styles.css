@@ -18,7 +18,10 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: .2s; }
+  .header__logo a:hover {
+    color: pink; }
 
 .header__nav ul {
   display: flex;
@@ -32,7 +35,10 @@ body {
 .header__nav a {
   font-size: 20px;
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: .2s; }
+  .header__nav a:hover {
+    color: pink; }
 
 .main__banner {
   text-align: center; }
